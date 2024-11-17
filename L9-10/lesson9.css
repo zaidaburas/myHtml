@@ -1,0 +1,84 @@
+@media only screen and (min-width: 768px) {
+
+  /*for desktop*/
+  .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #youtube:hover {
+    transform: translate(0, 200px);
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  /*for mobile*/
+  body {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-icons {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid blue;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #youtube:hover {
+    transform: translate(100px, 0px);
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+  }
+}
+
+.social-icons img {
+  width: 100px;
+}
+
+#instagram:hover {
+  transform: rotate(200deg);
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}
+
+#facebook:hover {
+  background: #EBE41C;
+  border-radius: 110px;
+  transition-property: background, border-radius;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}
+
+#snapchat:hover {
+  transform: scale(10);
+  visibility: hidden;
+  transition-property: transform, visibility;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}
+
+#twitter:hover {
+  transform: skew(20deg, 20deg);
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}
