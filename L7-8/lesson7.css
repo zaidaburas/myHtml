@@ -1,0 +1,67 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px;
+  border: 2px solid blue;
+}
+
+.child1,
+.child2,
+.child3,
+.child4,
+.child5,
+.child6,
+.child7,
+.child8,
+.child9,
+.child10 {
+  width: 25%;
+  margin: 0px;
+  padding-top: 100px;
+  font-size: 30px;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.child1 {
+  background: #FF0000;
+}
+
+.child2 {
+  background: #FF00D4;
+}
+
+.child3 {
+  background: #5B00FF;
+}
+
+.child4 {
+  background: #0094FF;
+}
+
+.child5 {
+  background: #00FFA4;
+}
+
+.child6 {
+  background: #05FF00;
+}
+
+.child7 {
+  background: #C2FF00;
+}
+
+.child8 {
+  background: #FF8300;
+}
+
+.child9 {
+  background: #000000;
+}
+
+.child10 {
+  background: #FFB162;
+}
