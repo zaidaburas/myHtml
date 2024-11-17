@@ -1,0 +1,99 @@
+/* 
+::first-line
+::first-letter
+
+::after
+::before
+
+::hover
+*/
+ul {
+  display: flex;
+  width: 600px;
+  padding: 0px;
+  background: #CA6B61;
+  border-radius: 20px;
+  justify-content: space-evenly;
+}
+
+li {
+  text-align: center;
+  width: 100px;
+
+  background-color: #6F96B8;
+  margin: 0px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.lin-1,
+.lin-5 {
+  background-color: #6FB87B;
+}
+
+
+
+div {
+
+  width: 120px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.mainDiv {
+  color: #fff;
+  width: 100%;
+  height: 400px;
+  display: flex;
+
+  /* align-content: center; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  /* justify-items:stretch; */
+  /* flex-direction: column; */
+
+}
+
+.myDiv1 {
+  background-color: red;
+
+}
+
+.myDiv2 {
+  background-color: navy;
+  align-self: start;
+}
+
+.myDiv3 {
+  background-color: olive;
+  order: 1;
+  /* deault 0 */
+}
+
+.myDiv4 {
+  background-color: yellowgreen;
+  flex-shrink: 0;
+}
+
+.myDiv5 {
+
+  background-color: gray;
+}
+
+.floating {
+
+  margin-top: 50px;
+  width: 100%;
+  color: red;
+}
+
+.floating img {
+  float: left;
+}
+
+.floating:after {
+  content: "";
+  clear: left;
+  display: block;
+}
